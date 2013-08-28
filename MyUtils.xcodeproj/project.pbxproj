@@ -20,6 +20,7 @@
 		B33BCEBC17C99F0F00C45821 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33BCEBB17C99F0F00C45821 /* ViewController.m */; };
 		B33BCEC717C99F6300C45821 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B33BCEC417C99F6300C45821 /* DateUtil.m */; };
 		B33BCECF17C9A25F00C45821 /* ColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B33BCECE17C9A25F00C45821 /* ColorUtil.m */; };
+		B3FE253317CCC89200BC81AF /* AttentionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FE253217CCC89200BC81AF /* AttentionUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		B33BCEC417C99F6300C45821 /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
 		B33BCECD17C9A25F00C45821 /* ColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorUtil.h; sourceTree = "<group>"; };
 		B33BCECE17C9A25F00C45821 /* ColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorUtil.m; sourceTree = "<group>"; };
+		B3FE253117CCC89200BC81AF /* AttentionUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttentionUtil.h; sourceTree = "<group>"; };
+		B3FE253217CCC89200BC81AF /* AttentionUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttentionUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 		B33BCEC217C99F3100C45821 /* MyUtils */ = {
 			isa = PBXGroup;
 			children = (
+				B3FE253117CCC89200BC81AF /* AttentionUtil.h */,
+				B3FE253217CCC89200BC81AF /* AttentionUtil.m */,
 				B33BCEC317C99F6300C45821 /* DateUtil.h */,
 				B33BCEC417C99F6300C45821 /* DateUtil.m */,
 				B33BCECD17C9A25F00C45821 /* ColorUtil.h */,
@@ -196,6 +201,7 @@
 				B33BCEBC17C99F0F00C45821 /* ViewController.m in Sources */,
 				B33BCEC717C99F6300C45821 /* DateUtil.m in Sources */,
 				B33BCECF17C9A25F00C45821 /* ColorUtil.m in Sources */,
+				B3FE253317CCC89200BC81AF /* AttentionUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +322,7 @@
 				B33BCEC117C99F0F00C45821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
