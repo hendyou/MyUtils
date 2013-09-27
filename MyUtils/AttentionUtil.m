@@ -25,7 +25,7 @@
         SystemSoundID soundID;
         NSString *soundFile = [[NSBundle mainBundle] pathForResource: [components objectAtIndex: 0] ofType: [components objectAtIndex: 1]];
         
-        AudioServicesCreateSystemSoundID((__bridge CFURLRef)
+        AudioServicesCreateSystemSoundID((CFURLRef)
                                          [NSURL fileURLWithPath: soundFile], &soundID);
         AudioServicesPlaySystemSound(soundID);
     }
@@ -38,7 +38,7 @@
         SystemSoundID soundID;
         NSString *soundFile = [[NSBundle mainBundle] pathForResource: [components objectAtIndex: 0] ofType: [components objectAtIndex: 1]];
         
-        AudioServicesCreateSystemSoundID((__bridge CFURLRef)
+        AudioServicesCreateSystemSoundID((CFURLRef)
                                          [NSURL fileURLWithPath: soundFile], &soundID);
         AudioServicesPlayAlertSound(soundID);
     }

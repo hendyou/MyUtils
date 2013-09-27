@@ -15,7 +15,17 @@
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
     [dateFormat setDateFormat:format];
     NSString *dateStr = [dateFormat stringFromDate: date];
+    [dateFormat release];
     return dateStr;
+}
+
++ (NSDate *) formatDate:(NSString*)format withString:(NSString*)string
+{
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:format];
+    NSDate *date = [dateFormat dateFromString:string];
+    [dateFormat release];
+    return date;
 }
 
 @end
