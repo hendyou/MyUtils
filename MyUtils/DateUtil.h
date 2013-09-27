@@ -10,8 +10,11 @@
 
 @interface DateUtil : NSObject
 
-+ (NSString *) formatDate: (NSString *) format withDate:(NSDate *) date;
++ (NSString *) formatDate: (NSString *) format fromDate:(NSDate *) date;
 
-+ (NSDate *) formatDate:(NSString*)format withString:(NSString*)string;
++ (NSDate *) formatDate:(NSString*)format fromString:(NSString*)string;
+
+//Format date string like this: Tue May 31 17:46:55 +0800 2011(E MMM dd HH:mm:ss Z yyyy) 
++ (NSString *) formatDate:(NSString*)format fromSina:(NSString*)sinaDate;
 
 @end
