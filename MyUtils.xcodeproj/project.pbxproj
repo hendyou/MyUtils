@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04CB7A82186C368C00F473E9 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CB7A80186C368C00F473E9 /* StringUtil.m */; };
 		B33BCEA017C99F0F00C45821 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33BCE9F17C99F0F00C45821 /* UIKit.framework */; };
 		B33BCEA217C99F0F00C45821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33BCEA117C99F0F00C45821 /* Foundation.framework */; };
 		B33BCEA417C99F0F00C45821 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33BCEA317C99F0F00C45821 /* CoreGraphics.framework */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04CB7A80186C368C00F473E9 /* StringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtil.m; sourceTree = "<group>"; };
+		04CB7A81186C368C00F473E9 /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
 		B33BCE9C17C99F0F00C45821 /* MyUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B33BCE9F17C99F0F00C45821 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B33BCEA117C99F0F00C45821 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +123,8 @@
 		B33BCEC217C99F3100C45821 /* MyUtils */ = {
 			isa = PBXGroup;
 			children = (
+				04CB7A80186C368C00F473E9 /* StringUtil.m */,
+				04CB7A81186C368C00F473E9 /* StringUtil.h */,
 				B3FE253117CCC89200BC81AF /* AttentionUtil.h */,
 				B3FE253217CCC89200BC81AF /* AttentionUtil.m */,
 				B33BCEC317C99F6300C45821 /* DateUtil.h */,
@@ -202,6 +207,7 @@
 				B33BCEC717C99F6300C45821 /* DateUtil.m in Sources */,
 				B33BCECF17C9A25F00C45821 /* ColorUtil.m in Sources */,
 				B3FE253317CCC89200BC81AF /* AttentionUtil.m in Sources */,
+				04CB7A82186C368C00F473E9 /* StringUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
