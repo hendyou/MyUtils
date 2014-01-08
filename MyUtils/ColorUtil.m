@@ -20,7 +20,7 @@
     // strip 0X if it appears
     if ([cString hasPrefix:@"0X"]) cString = [cString substringFromIndex:2];
     if ([cString hasPrefix:@"#"]) cString = [cString substringFromIndex:1];
-    NSLog(@"%d", [cString length]);
+//    NSLog(@"%d", [cString length]);
     if ([cString length] != 6 && [cString length] != 8) return DEFAULT_VOID_COLOR;
     
     // Separate into r, g, b substrings
@@ -41,7 +41,7 @@
         [[NSScanner scannerWithString:rString] scanHexInt:&r];
         [[NSScanner scannerWithString:gString] scanHexInt:&g];
         [[NSScanner scannerWithString:bString] scanHexInt:&b];
-        alpha = 1.0f;
+        alpha = 255.0f;
     } else {
         NSRange range;
         range.location = 0;

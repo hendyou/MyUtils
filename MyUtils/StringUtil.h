@@ -14,4 +14,6 @@ BOOL NSStringIsEmpty(NSString *string);
 
 - (NSString *)trim;
 
+- (BOOL) isEmpty;
+
 @end
