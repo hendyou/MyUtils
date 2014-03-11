@@ -25,9 +25,4 @@ BOOL NSStringIsEmpty(NSString *string)
     return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 
-- (BOOL) isEmpty
-{
-    return NSStringIsEmpty(self);
-}
-
 @end
