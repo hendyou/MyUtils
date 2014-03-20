@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0462922918D2ECE3008D9716 /* AppCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0462922818D2ECE3008D9716 /* AppCommon.m */; };
 		04CB7A82186C368C00F473E9 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CB7A80186C368C00F473E9 /* StringUtil.m */; };
 		B33BCEA017C99F0F00C45821 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33BCE9F17C99F0F00C45821 /* UIKit.framework */; };
 		B33BCEA217C99F0F00C45821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33BCEA117C99F0F00C45821 /* Foundation.framework */; };
@@ -21,10 +22,12 @@
 		B33BCEBC17C99F0F00C45821 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33BCEBB17C99F0F00C45821 /* ViewController.m */; };
 		B33BCEC717C99F6300C45821 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B33BCEC417C99F6300C45821 /* DateUtil.m */; };
 		B33BCECF17C9A25F00C45821 /* ColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B33BCECE17C9A25F00C45821 /* ColorUtil.m */; };
-		B3FE253317CCC89200BC81AF /* AttentionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FE253217CCC89200BC81AF /* AttentionUtil.m */; };
+		B3FE253317CCC89200BC81AF /* AttentionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FE253217CCC89200BC81AF /* AttentionUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0462922718D2ECE3008D9716 /* AppCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCommon.h; sourceTree = "<group>"; };
+		0462922818D2ECE3008D9716 /* AppCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppCommon.m; sourceTree = "<group>"; };
 		04CB7A80186C368C00F473E9 /* StringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtil.m; sourceTree = "<group>"; };
 		04CB7A81186C368C00F473E9 /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
 		B33BCE9C17C99F0F00C45821 /* MyUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +134,8 @@
 				B33BCEC417C99F6300C45821 /* DateUtil.m */,
 				B33BCECD17C9A25F00C45821 /* ColorUtil.h */,
 				B33BCECE17C9A25F00C45821 /* ColorUtil.m */,
+				0462922718D2ECE3008D9716 /* AppCommon.h */,
+				0462922818D2ECE3008D9716 /* AppCommon.m */,
 			);
 			name = MyUtils;
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0462922918D2ECE3008D9716 /* AppCommon.m in Sources */,
 				B33BCEAC17C99F0F00C45821 /* main.m in Sources */,
 				B33BCEB017C99F0F00C45821 /* AppDelegate.m in Sources */,
 				B33BCEBC17C99F0F00C45821 /* ViewController.m in Sources */,
@@ -239,6 +245,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
@@ -269,6 +276,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;

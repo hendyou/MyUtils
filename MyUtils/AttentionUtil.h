@@ -15,10 +15,10 @@
                                  message: (NSString *) message
                        cancelButtonTitle: (NSString *) cancelButtonTitle;
 
-+ (void) playSystemSound: (NSString *) soundFileName;
+//+ (void) playSystemSound: (NSString *) soundFileName;
+//
+//+ (void) playAlertSound: (NSString *) soundFileName;
 
-+ (void) playAlertSound: (NSString *) soundFileName;
-
-+ (void) vibrate;
+//+ (void) vibrate;
 
 @end
